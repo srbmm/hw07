@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background: #31cae0;
+    padding: 1rem;
+    width: 50vw;
+}
+input[type="text"], input[type="password"], textarea{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}
+textarea{
+    resize: none;
+}
+.text-center{
+    text-align: center;
+}
+.block{
+    display: block;
+}
+hr{
+    background: white;
+    outline: none;
+}
+.phone-inp{
+    display: flex;
+    background: white;
+    padding: 0.5rem;
+}
+input[class="padding0"]{
+    padding: 0;
+    padding-left: 0.5rem;
+}
+.submit-btn{
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    background: #1fb72c;
+}
